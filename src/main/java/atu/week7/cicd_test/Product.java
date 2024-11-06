@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Product {
-    @Pattern(regexp = "PROD-", message = "has to follow the produce code PROD-XXXX")
+    //@Pattern(regexp = "PROD-", message = "has to follow the produce code PROD-XXXX")
     public String ProductCode;
     @Size(min=0,max = 100,message = "product name is too long")
     private String ProductName;
